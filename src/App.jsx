@@ -9,6 +9,7 @@ import Donate from "./components/donate.jsx";
 import Volunteer from "./components/volunteer.jsx";
 import Profile from "./components/profile.jsx";
 import Home from "./components/home.jsx";
+import Test from "./components/test.jsx";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 {/* Login and Signup Routes */}
                 <Route path="/signup" element={<Signup/>}/>
                 <Route path="/login" element={<Login/>}/>
+                <Route path="/test" element={<Test/>}/>
 
                 {/* Layout and its nested routes */}
                 <Route element={<Layout/>}>
